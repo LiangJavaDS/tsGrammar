@@ -25,7 +25,7 @@
         }
         // 方法的重写
         eat() {
-            super.eat();
+            super.eat(); //调用父类的方法
             // console.log(`${this.name}吃骨头`)
         }
     }
